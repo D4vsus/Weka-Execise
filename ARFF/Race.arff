@@ -1,0 +1,195 @@
+@relation Race
+
+@attribute id numeric
+@attribute pilot string 
+@attribute car string 
+@attribute team string 
+@attribute circuit string
+@attribute day date "dd-MM-yyyy"
+@attribute temperature numeric 
+@attribute hundredths numeric 
+@attribute rain {no,yes}
+@attribute endUp {no,yes}
+@attribute position numeric
+
+@data
+1,'M. Verstappen','RB23','Red Bull','Bahrain',"03-05-2023",29,0,no,yes,1
+2,'S. Perez','RB23','Red Bull','Bahrain',"03-05-2023",29,11.987,no,yes,2
+3,'F. Alonso','AMR23','Aston Martin','Bahrain',"03-05-2023",29,38.637,no,yes,3
+4,'C. Sainz','F23','Ferrari','Bahrain',"03-05-2023",29,48.052,no,yes,4
+5,'L. Hamilton','M23','Mercedes','Bahrain',"03-05-2023",29,50.977,no,yes,5
+6,'L. Stroll','AMR23','Aston Martin','Bahrain',"03-05-2023",29,54.502,no,yes,6
+7,'G. Russell','M23','Mercedes','Bahrain',"03-05-2023",29,55.873,no,yes,7
+8,'V. Bottas','AR23','Alfa Romeo','Bahrain',"03-05-2023",29,72.647,no,yes,8
+9,'P. Gasly','AL23','Alpine','Bahrain',"03-05-2023",29,73.753,no,yes,9
+10,'A. Albon','W23','Williams','Bahrain',"03-05-2023",29,89.774,no,yes,10
+11,'Y. Tsunoda','AT23','Alpha Tauri','Bahrain',"03-05-2023",29,90.870,no,yes,11
+12,'L. Sargent','W23','Williams','Bahrain',"03-05-2023",29,99.999,no,yes,12
+13,'K. Magnussen','H23','Haas','Bahrain',"03-05-2023",29,99.999,no,yes,13
+14,'N. de Vries','AT23','Alpha Tauri','Bahrain',"03-05-2023",29,99.999,no,yes,14
+15,'N. Hulkenberg','H23','Haas','Bahrain',"03-05-2023",29,99.999,no,yes,15
+16,'G. Zhou','AR23','Alfa Romeo','Bahrain',"03-05-2023",29,99.999,no,yes,16
+17,'L. Norris','Mc23','McLaren','Bahrain',"03-05-2023",29,99.999,no,no,17
+18,'E. Ocon','AL23','Alpine','Bahrain',"03-05-2023",29,99.999,no,no,18
+19,'C. Leclerc','F23','Ferrari','Bahrain',"03-05-2023",29,99.999,no,no,19
+20,'O. Piastri','Mc23','McLaren','Bahrain',"03-05-2023",29,99.999,no,no,20
+21,'S. Perez','RB23','Red Bull','Arabia Saudi',"19-03-2023",26,0,no,yes,1
+22,'M. Verstappen','RB23','Red Bull','Arabia Saudi',"19-03-2023",26,5.355,no,yes,2
+23,'F. Alonso','AMR23','Aston Martin','Arabia Saudi',"19-03-2023",26,20.728,no,yes,3
+24,'G. Russell','M23','Mercedes','Arabia Saudi',"19-03-2023",26,25.866,no,yes,4
+25,'L. Hamilton','M23','Mercedes','Arabia Saudi',"19-03-2023",26,31.065,no,yes,5
+26,'C. Sainz','F23','Ferrari','Arabia Saudi',"19-03-2023",26,35.876,no,yes,6
+27,'C. Leclerc','F23','Ferrari','Arabia Saudi',"19-03-2023",26,43.162,no,yes,7
+28,'E. Ocon','AL23','Alpine','Arabia Saudi',"19-03-2023",26,52.832,no,yes,8
+29,'P. Gasly','AL23','Alpine','Arabia Saudi',"19-03-2023",26,54.747,no,yes,9
+30,'K. Magnussen','H23','Haas','Arabia Saudi',"19-03-2023",26,64.826,no,yes,10
+31,'Y. Tsunoda','AT23','Alpha Tauri','Arabia Saudi',"19-03-2023",26,67.494,no,yes,11
+32,'N. Hulkenberg','H23','Haas','Arabia Saudi',"19-03-2023",26,70.588,no,yes,12
+33,'G. Zhou','AR23','Alfa Romeo','Arabia Saudi',"19-03-2023",26,76.060,no,yes,13
+34,'N. de Vries','AT23','Alpha Tauri','Arabia Saudi',"19-03-2023",26,77.478,no,yes,14
+35,'O. Piastri','Mc23','McLaren','Arabia Saudi',"19-03-2023",26,85.021,no,yes,15
+36,'L. Sargent','W23','Williams','Arabia Saudi',"19-03-2023",26,86.293,no,yes,16
+37,'L. Norris','Mc23','McLaren','Arabia Saudi',"19-03-2023",26,66.445,no,yes,17
+38,'V. Bottas','AR23','Alfa Romeo','Arabia Saudi',"19-03-2023",26,99.999,no,yes,18
+39,'A. Albon','W23','Williams','Arabia Saudi',"19-03-2023",26,99.999,no,no,19
+40,'L. Stroll','AMR23','Aston Martin','Arabia Saudi',"19-03-2023",26,99.999,no,no,20
+41,'M. Verstappen','RB23','Red Bull','Australia',"02-04-2023",17,0,no,yes,1
+42,'L. Hamilton','M23','Mercedes','Australia',"02-04-2023",17,0.179,no,yes,2
+43,'F. Alonso','AMR23','Aston Martin','Australia',"02-04-2023",17,0.769,no,yes,3
+44,'L. Stroll','AMR23','Aston Martin','Australia',"02-04-2023",17,3.082,no,yes,4
+45,'S. Perez','RB23','Red Bull','Australia',"02-04-2023",17,3.320,no,yes,5
+46,'L. Norris','Mc23','McLaren','Australia',"02-04-2023",17,3.701,no,yes,6
+47,'N. Hulkenberg','H23','Haas','Australia',"02-04-2023",17,4.939,no,yes,7
+48,'O. Piastri','Mc23','McLaren','Australia',"02-04-2023",17,5.382,no,yes,8
+49,'G. Zhou','AR23','Alfa Romeo','Australia',"02-04-2023",17,5.713,no,yes,9
+50,'Y. Tsunoda','AT23','Alpha Tauri','Australia',"02-04-2023",17,6.052,no,yes,10
+51,'V. Bottas','AR23','Alfa Romeo','Australia',"02-04-2023",17,6.513,no,yes,11
+52,'C. Sainz','F23','Ferrari','Australia',"02-04-2023",17,6.594,no,yes,12
+53,'P. Gasly','AL23','Alpine','Australia',"02-04-2023",17,99.999,no,no,13
+54,'E. Ocon','AL23','Alpine','Australia',"02-04-2023",17,99.999,no,no,14
+55,'N. de Vries','AT23','Alpha Tauri','Australia',"02-04-2023",17,99.999,no,no,15
+56,'L. Sargent','W23','Williams','Australia',"02-04-2023",17,99.999,no,no,16
+57,'K. Magnussen','H23','Haas','Australia',"02-04-2023",17,99.999,no,no,17
+58,'G. Russell','M23','Mercedes','Australia',"02-04-2023",17,99.999,no,no,18
+59,'A. Albon','W23','Williams','Australia',"02-04-2023",17,99.999,no,no,19
+60,'C. Leclerc','F23','Ferrari','Australia',"02-04-2023",17,99.999,no,no,20
+61,'S. Perez','RB23','Red Bull','Azerbaiyan',"30-04-2023",25,0,no,yes,1
+62,'M. Verstappen','RB23','Red Bull','Azerbaiyan',"30-04-2023",25,2.137,no,yes,2
+63,'C. Leclerc','F23','Ferrari','Azerbaiyan',"30-04-2023",25,21.217,no,yes,3
+64,'F. Alonso','AMR23','Aston Martin','Azerbaiyan',"30-04-2023",25,22.024,no,yes,4
+65,'C. Sainz','F23','Ferrari','Azerbaiyan',"30-04-2023",25,45.491,no,yes,5
+66,'L. Hamilton','M23','Mercedes','Azerbaiyan',"30-04-2023",25,46.145,no,yes,6
+67,'L. Stroll','AMR23','Aston Martin','Azerbaiyan',"30-04-2023",25,51.617,no,yes,7
+68,'G. Russell','M23','Mercedes','Azerbaiyan',"30-04-2023",25,74.240,no,yes,8
+69,'L. Norris','Mc23','McLaren','Azerbaiyan',"30-04-2023",25,80.376,no,yes,9
+70,'Y. Tsunoda','AT23','Alpha Tauri','Azerbaiyan',"30-04-2023",25,83.862,no,yes,10
+71,'O. Piastri','Mc23','McLaren','Azerbaiyan',"30-04-2023",25,86.501,no,yes,11
+72,'A. Albon','W23','Williams','Azerbaiyan',"30-04-2023",25,88.623,no,yes,12
+73,'K. Magnussen','H23','Haas','Azerbaiyan',"30-04-2023",25,89.729,no,yes,13
+74,'P. Gasly','AL23','Alpine','Azerbaiyan',"30-04-2023",25,91.332,no,yes,14
+75,'E. Ocon','AL23','Alpine','Azerbaiyan',"30-04-2023",25,97.794,no,yes,15
+76,'L. Sargent','W23','Williams','Azerbaiyan',"30-04-2023",25,99.999,no,yes,16
+77,'N. Hulkenberg','H23','Haas','Azerbaiyan',"30-04-2023",25,99.999,no,yes,17
+78,'V. Bottas','AR23','Alfa Romeo','Azerbaiyan',"30-04-2023",25,99.999,no,yes,18
+79,'G. Zhou','AR23','Alfa Romeo','Azerbaiyan',"30-04-2023",25,99.999,no,no,19
+80,'N. de Vries','AT23','Alpha Tauri','Azerbaiyan',"30-04-2023",25,99.999,no,no,20
+81,'M. Verstappen','RB23','Red Bull','Miami',"07-05-2023",30,0,no,yes,1
+82,'S. Perez','RB23','Red Bull','Miami',"07-05-2023",30,5.384,no,yes,2
+83,'F. Alonso','AMR23','Aston Martin','Miami',"07-05-2023",30,26.305,no,yes,3
+84,'G. Russell','M23','Mercedes','Miami',"07-05-2023",30,33.229,no,yes,4
+85,'C. Sainz','F23','Ferrari','Miami',"07-05-2023",30,42.511,no,yes,5
+86,'L. Hamilton','M23','Mercedes','Miami',"07-05-2023",30,51.249,no,yes,6
+87,'C. Leclerc','F23','Ferrari','Miami',"07-05-2023",30,52.988,no,yes,7
+88,'P. Gasly','AL23','Alpine','Miami',"07-05-2023",30,55.670,no,yes,8
+89,'E. Ocon','AL23','Alpine','Miami',"07-05-2023",30,58.123,no,yes,9
+90,'K. Magnussen','H23','Haas','Miami',"07-05-2023",30,62.945,no,yes,10
+91,'Y. Tsunoda','AT23','Alpha Tauri','Miami',"07-05-2023",30,64.309,no,yes,11
+92,'L. Stroll','AMR23','Aston Martin','Miami',"07-05-2023",30,64.754,no,yes,12
+93,'V. Bottas','AR23','Alfa Romeo','Miami',"07-05-2023",30,71.637,no,yes,13
+94,'A. Albon','W23','Williams','Miami',"07-05-2023",30,72.861,no,yes,14
+95,'N. Hulkenberg','H23','Haas','Miami',"07-05-2023",30,74.950,no,yes,15
+96,'G. Zhou','AR23','Alfa Romeo','Miami',"07-05-2023",30,78.440,no,yes,16
+97,'L. Norris','Mc23','McLaren','Miami',"07-05-2023",30,87.717,no,yes,17
+98,'N. de Vries','AT23','Alpha Tauri','Miami',"07-05-2023",30,88.949,no,yes,18
+99,'O. Piastri','Mc23','McLaren','Miami',"07-05-2023",30,99.999,no,yes,19
+100,'L. Sargent','W23','Williams','Miami',"07-05-2023",30,99.999,no,yes,20
+101,'M. Verstappen','RB23','Red Bull','Miami',"28-05-23",20,0,yes,yes,1
+102,'F. Alonso','AMR23','Aston Martin','Miami',"28-05-23",20,27.921,yes,yes,2
+103,'E. Ocon','AL23','Alpine','Miami',"28-05-23",20,36.990,yes,yes,3
+104,'L. Hamilton','M23','Mercedes','Miami',"28-05-23",20,56.284,yes,yes,4
+105,'G. Russell','M23','Mercedes','Miami',"28-05-23",20,61.890,yes,yes,5
+106,'C. Leclerc','F23','Ferrari','Miami',"28-05-23",20,62.362,yes,yes,6
+107,'P. Gasly','AL23','Alpine','Miami',"28-05-23",20,63.391,yes,yes,7
+108,'C. Sainz','F23','Ferrari','Miami',"28-05-23",20,99.999,yes,yes,8
+109,'L. Norris','Mc23','McLaren','Miami',"28-05-23",20,99.999,yes,yes,9
+110,'O. Piastri','Mc23','McLaren','Miami',"28-05-23",20,99.999,yes,yes,10
+111,'V. Bottas','AR23','Alfa Romeo','Miami',"28-05-23",20,99.999,yes,yes,11
+112,'N. de Vries','AT23','Alpha Tauri','Miami',"28-05-23",20,99.999,yes,yes,12
+113,'G. Zhou','AR23','Alfa Romeo','Miami',"28-05-23",20,99.999,yes,yes,13
+114,'A. Albon','W23','Williams','Miami',"28-05-23",20,99.999,yes,yes,14
+115,'Y. Tsunoda','AT23','Alpha Tauri','Miami',"28-05-23",20,99.999,yes,yes,15
+116,'S. Perez','RB23','Red Bull','Miami',"28-05-23",20,99.999,yes,yes,16
+117,'N. Hulkenberg','H23','Haas','Miami',"28-05-23",20,99.999,yes,yes,17
+118,'L. Sargent','W23','Williams','Miami',"28-05-23",20,99.999,yes,yes,18
+119,'K. Magnussen','H23','Haas','Miami',"28-05-23",20,99.999,yes,no,19
+120,'L. Stroll','AMR23','Aston Martin','Miami',"28-05-23",20,99.999,yes,no,20
+121,'M. Verstappen','RB23','Red Bull','Spain',"04-06-32",23,0,no,yes,1
+122,'L. Hamilton','M23','Mercedes','Spain',"04-06-32",23,24.090,no,yes,2
+123,'G. Russell','M23','Mercedes','Spain',"04-06-32",23,32.389,no,yes,3
+124,'S. Perez','RB23','Red Bull','Spain',"04-06-32",23,35.812,no,yes,4
+125,'C. Sainz','F23','Ferrari','Spain',"04-06-32",23,45.689,no,yes,5
+126,'L. Stroll','AMR23','Aston Martin','Spain',"04-06-32",23,63.320,no,yes,6
+127,'F. Alonso','AMR23','Aston Martin','Spain',"04-06-32",23,64.127,no,yes,7
+128,'E. Ocon','AL23','Alpine','Spain',"04-06-32",23,69.242,no,yes,8
+129,'G. Zhou','AR23','Alfa Romeo','Spain',"04-06-32",23,71.878,no,yes,9
+130,'P. Gasly','AL23','Alpine','Spain',"04-06-32",23,73.530,no,yes,10
+131,'C. Leclerc','F23','Ferrari','Spain',"04-06-32",23,74.419,no,yes,11
+132,'Y. Tsunoda','AT23','Alpha Tauri','Spain',"04-06-32",23,99.999,no,yes,12
+133,'O. Piastri','Mc23','McLaren','Spain',"04-06-32",23,99.999,no,yes,13
+134,'N. de Vries','AT23','Alpha Tauri','Spain',"04-06-32",23,99.999,no,yes,14
+135,'N. Hulkenberg','H23','Haas','Spain',"04-06-32",23,99.999,no,yes,15
+136,'A. Albon','W23','Williams','Spain',"04-06-32",23,99.999,no,yes,16
+137,'L. Norris','Mc23','McLaren','Spain',"04-06-32",23,99.999,no,yes,17
+138,'K. Magnussen','H23','Haas','Spain',"04-06-32",23,99.999,no,yes,18
+139,'V. Bottas','AR23','Alfa Romeo','Spain',"04-06-32",23,99.999,no,yes,19
+140,'L. Sargent','W23','Williams','Spain',"04-06-32",23,99.999,no,yes,20
+141,'M. Verstappen','RB23','Red Bull','Canada',"18-06-2023",20,0,no,yes,1
+142,'F. Alonso','AMR23','Aston Martin','Canada',"18-06-2023",20,9.570,no,yes,2
+143,'L. Hamilton','M23','Mercedes','Canada',"18-06-2023",20,14.168,no,yes,3
+144,'C. Leclerc','F23','Ferrari','Canada',"18-06-2023",20,18.648,no,yes,4
+145,'C. Sainz','F23','Ferrari','Canada',"18-06-2023",20,21.540,no,yes,5
+146,'S. Perez','RB23','Red Bull','Canada',"18-06-2023",20,51.028,no,yes,6
+147,'A. Albon','W23','Williams','Canada',"18-06-2023",20,60.831,no,yes,7
+148,'E. Ocon','AL23','Alpine','Canada',"18-06-2023",20,61.692,no,yes,8
+149,'L. Stroll','AMR23','Aston Martin','Canada',"18-06-2023",20,64.402,no,yes,9
+150,'V. Bottas','AR23','Alfa Romeo','Canada',"18-06-2023",20,64.432,no,yes,10
+151,'O. Piastri','Mc23','McLaren','Canada',"18-06-2023",20,65.101,no,yes,11
+152,'P. Gasly','AL23','Alpine','Canada',"18-06-2023",20,65.249,no,yes,12
+153,'L. Norris','Mc23','McLaren','Canada',"18-06-2023",20,68.363,no,yes,13
+154,'Y. Tsunoda','AT23','Alpha Tauri','Canada',"18-06-2023",20,73.423,no,yes,14
+155,'N. Hulkenberg','H23','Haas','Canada',"18-06-2023",20,99.999,no,yes,15
+156,'G. Zhou','AR23','Alfa Romeo','Canada',"18-06-2023",20,99.999,no,yes,16
+157,'K. Magnussen','H23','Haas','Canada',"18-06-2023",20,99.999,no,yes,17
+158,'N. de Vries','AT23','Alpha Tauri','Canada',"18-06-2023",20,99.999,no,yes,18
+159,'G. Russell','M23','Mercedes','Canada',"18-06-2023",20,99.999,no,yes,19
+160,'L. Sargent','W23','Williams','Canada',"18-06-2023",20,99.999,no,yes,20
+161,'M. Verstappen','RB23','Red Bull','Austria',"02-06-23",23,0,no,yes,1
+162,'C. Leclerc','F23','Ferrari','Austria',"02-06-23",23,5.155,no,yes,2
+163,'S. Perez','RB23','Red Bull','Austria',"02-06-23",23,17.188,no,yes,3
+164,'L. Norris','Mc23','McLaren','Austria',"02-06-23",23,26.327,no,yes,4
+165,'F. Alonso','AMR23','Aston Martin','Austria',"02-06-23",23,30.317,no,yes,5
+166,'C. Sainz','F23','Ferrari','Austria',"02-06-23",23,31.377,no,yes,6
+167,'G. Russell','M23','Mercedes','Austria',"02-06-23",23,48.403,no,yes,7
+168,'L. Hamilton','M23','Mercedes','Austria',"02-06-23",23,49.196,no,yes,8
+169,'L. Stroll','AMR23','Aston Martin','Austria',"02-06-23",23,59.043,no,yes,9
+170,'P. Gasly','AL23','Alpine','Austria',"02-06-23",23,67.667,no,yes,10
+171,'A. Albon','W23','Williams','Austria',"02-06-23",23,79.767,no,yes,11
+172,'G. Zhou','AR23','Alfa Romeo','Austria',"02-06-23",23,99.999,no,yes,12
+173,'L. Sargent','W23','Williams','Austria',"02-06-23",23,99.999,no,yes,13
+174,'E. Ocon','AL23','Alpine','Austria',"02-06-23",23,99.999,no,yes,14
+175,'V. Bottas','AR23','Alfa Romeo','Austria',"02-06-23",23,99.999,no,yes,15
+176,'O. Piastri','Mc23','McLaren','Austria',"02-06-23",23,99.999,no,yes,16
+177,'N. de Vries','AT23','Alpha Tauri','Austria',"02-06-23",23,99.999,no,yes,17
+178,'K. Magnussen','H23','Haas','Austria',"02-06-23",23,99.999,no,yes,18
+179,'Y. Tsunoda','AT23','Alpha Tauri','Austria',"02-06-23",23,99.999,no,yes,19
+180,'N. Hulkenberg','H23','Haas','Austria',"02-06-23",23,99.999,no,no,20
